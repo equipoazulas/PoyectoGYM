@@ -4,7 +4,7 @@ import MembershipForm from './components/MembershipForm';
 import UserList from './components/UserList';
 import MembresiaList from './components/MembresiaList';
 import Home from './components/Home';
-import './index.css'; // o './App.css', según donde tengas el CSS
+import './index.css'; 
 
 
 function App() {

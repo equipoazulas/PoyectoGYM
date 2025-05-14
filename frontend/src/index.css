@@ -1,6 +1,6 @@
-/* Fondo global para toda la aplicación */
+
 body {
-  background-image: url('./assets/inicio.jpg'); /* ajusta según el archivo CSS */
+  background-image: url('./assets/inicio.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Capa de oscurecimiento para mayor contraste (puede ser opcional) */
+
 #root::before {
   content: '';
   position: fixed;
@@ -21,11 +21,9 @@ body {
   z-index: -1;
 }
 
-/* Estilos Generales */
 
-/* Contenedor principal de formularios y tablas */
 .container {
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro translúcido */
+  background-color: rgba(0, 0, 0, 0.7); 
   padding: 2rem;
   border-radius: 10px;
   width: 80%;
@@ -35,14 +33,14 @@ body {
   color: rgb(255, 255, 255);
 }
 
-/* Título de la sección */
+
 h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
-/* Botón de retroceso */
+
 .back-button {
   background-color: #f83628;
   color: white;
@@ -59,7 +57,7 @@ h2 {
   background-color: #d32f2f;
 }
 
-/* Estilos de la tabla */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -84,9 +82,9 @@ table tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Estilos del contenedor del formulario */
+
 .form-container {
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro translúcido */
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 3rem;
   border-radius: 10px;
   width: 80%;
@@ -99,7 +97,7 @@ table tbody tr:hover {
   color: white;
 }
 
-/* Agrupación de los campos del formulario */
+
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -131,7 +129,7 @@ table tbody tr:hover {
   flex: 1;
 }
 
-/* Botones dentro de los formularios */
+
 .form-buttons {
   display: flex;
   gap: 15px;
@@ -140,7 +138,7 @@ table tbody tr:hover {
 .main-button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #4CAF50; /* Verde */
+  background-color: #4CAF50; 
   color: white;
   border: none;
   cursor: pointer;
@@ -150,14 +148,13 @@ table tbody tr:hover {
 }
 
 .main-button:hover {
-  background-color: #388e3c; /* Verde más oscuro al pasar el mouse */
+  background-color: #388e3c; 
 }
 
-/* Botón secundario (para volver al inicio) */
-/* Botón secundario: Volver al inicio */
+
 .main-button.secondary,
 .back-button {
-  background-color: #ce4a30; /* Rojo */
+  background-color: #ce4a30; 
   color: white;
   padding: 10px 20px;
   font-size: 1rem;
@@ -170,10 +167,10 @@ table tbody tr:hover {
 
 .main-button.secondary:hover,
 .back-button:hover {
-  background-color: #d32f2f; /* Rojo más oscuro al hacer hover */
+  background-color: #d32f2f; 
 }
 
-/* Estilo de los campos del formulario */
+
 .form-group input,
 .form-group select,
 .form-group textarea {
@@ -194,7 +191,7 @@ table tbody tr:hover {
   padding: 10px;
 }
 
-/* Estilo de los botones dentro de los formularios */
+
 .main-button {
   background-color: #e4002b;
   color: white;
@@ -218,7 +215,7 @@ table tbody tr:hover {
   align-items: center;
 }
 
-/* Botones generales */
+
 .main-button {
   padding: 12px 25px;
   font-size: 1.1rem;
@@ -227,7 +224,7 @@ table tbody tr:hover {
   cursor: pointer;
   font-weight: bold;
   transition: all 0.3s ease;
-  background-color: #c52929; /* Rojo por defecto */
+  background-color: #c52929; 
   color: rgb(255, 255, 255);
   width: 250px;
 }

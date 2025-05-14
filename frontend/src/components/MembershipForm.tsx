@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { ChangeEvent, FormEvent } from 'react';
-import { createMembership } from '../services/api'; // Asegúrate de que la ruta sea correcta
-import { useNavigate } from 'react-router-dom'; // 🔁 Importación para navegación
+import { createMembership } from '../services/api'; 
+import { useNavigate } from 'react-router-dom'; 
 
 interface FormData {
   nombre: string;
@@ -11,7 +11,7 @@ interface FormData {
 }
 
 export default function MembershipForm() {
-  const navigate = useNavigate(); // 🧭 Hook de navegación
+  const navigate = useNavigate(); 
 
   const [formData, setFormData] = useState<FormData>({
     nombre: '',

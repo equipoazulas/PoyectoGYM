@@ -34,7 +34,6 @@ public class Usuario {
     @JoinColumn(name = "id_membresia", nullable = false)
     private Membresia membresia;
 
-    // Getters y Setters
     public Long getId() { return id; }
 
     public String getIdentificador() { return identificador; }

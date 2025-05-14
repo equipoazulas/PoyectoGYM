@@ -1,8 +1,6 @@
-/* Estilos Generales */
 
-/* Contenedor principal de formularios y tablas */
 .container {
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro translúcido */
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 3rem;
   border-radius: 10px;
   width: 80%;
@@ -12,14 +10,14 @@
   color: white;
 }
 
-/* Título de la sección */
+
 h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
-/* Botón de retroceso */
+
 .back-button {
   background-color: #f44336;
   color: white;
@@ -36,7 +34,7 @@ h2 {
   background-color: #d32f2f;
 }
 
-/* Estilos de la tabla */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -61,9 +59,8 @@ table tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Estilos del contenedor del formulario */
 .form-container {
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro translúcido */
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 3rem;
   border-radius: 10px;
   width: 80%;
@@ -76,7 +73,7 @@ table tbody tr:hover {
   color: white;
 }
 
-/* Agrupación de los campos del formulario */
+
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -108,7 +105,7 @@ table tbody tr:hover {
   flex: 1;
 }
 
-/* Botones dentro de los formularios */
+
 .form-buttons {
   display: flex;
   gap: 15px;
@@ -117,7 +114,7 @@ table tbody tr:hover {
 .main-button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #4CAF50; /* Verde */
+  background-color: #4CAF50; 
   color: white;
   border: none;
   cursor: pointer;
@@ -127,14 +124,13 @@ table tbody tr:hover {
 }
 
 .main-button:hover {
-  background-color: #388e3c; /* Verde más oscuro al pasar el mouse */
+  background-color: #388e3c; 
 }
 
-/* Botón secundario (para volver al inicio) */
-/* Botón secundario: Volver al inicio */
+
 .main-button.secondary,
 .back-button {
-  background-color: #f44336; /* Rojo */
+  background-color: #f44336; 
   color: white;
   padding: 10px 20px;
   font-size: 1rem;
@@ -147,10 +143,10 @@ table tbody tr:hover {
 
 .main-button.secondary:hover,
 .back-button:hover {
-  background-color: #d32f2f; /* Rojo más oscuro al hacer hover */
+  background-color: #d32f2f; 
 }
 
-/* Estilo de los campos del formulario */
+
 .form-group input,
 .form-group select,
 .form-group textarea {
@@ -171,7 +167,7 @@ table tbody tr:hover {
   padding: 10px;
 }
 
-/* Estilo de los botones dentro de los formularios */
+
 .main-button {
   background-color: #e4002b;
   color: white;

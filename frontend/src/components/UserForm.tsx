@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { createUser } from '../services/api';
-import { useNavigate } from 'react-router-dom'; // 🧭 Importa el hook para navegación
+import { useNavigate } from 'react-router-dom';
 
 interface UserFormData {
   identificador: string;
@@ -30,7 +30,7 @@ export default function UserForm() {
   });
 
   const [membresias, setMembresias] = useState<any[]>([]);
-  const navigate = useNavigate(); // 🧭 Instancia de navegación
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchMembresias = async () => {

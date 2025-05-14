@@ -1,7 +1,6 @@
 const API_URL_MEMBRESIAS = 'http://localhost:8080/api/membresias';
 const API_URL_USUARIOS = 'http://localhost:8080/api/usuarios';
 
-// Tipos de datos
 export interface MembershipData {
   nombre: string;
   descripcion: string;
@@ -20,12 +19,11 @@ export interface UserData {
   numeroPago: string;
   membresia: {
     id: number;
-    nombre?: string; // opcional si querés mostrar el nombre de la membresía
+    nombre?: string;
   };
 }
 
 
-// Funciones para membresías
 export const createMembership = async (data: MembershipData): Promise<any> => {
   const response = await fetch(API_URL_MEMBRESIAS, {
     method: 'POST',
@@ -50,7 +48,6 @@ export const fetchMembresias = async (): Promise<MembershipData[]> => {
   return response.json();
 };
 
-// Funciones para usuarios
 export const createUser = async (data: UserData): Promise<any> => {
   const response = await fetch(API_URL_USUARIOS, {
     method: 'POST',
