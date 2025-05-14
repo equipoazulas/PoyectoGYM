@@ -1,0 +1,44 @@
+/* Fondo de imagen de toda la app */
+body #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('/assets/inicio.jpg'); /* Asegúrate de que la ruta sea correcta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Capa de superposición */
+
+
+/* Contenido centrado */
+.content {
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+/* Título grande */
+.title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+/* Subtítulo */
+.subtitle {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #f0f0f0;
+}
+
+/* Contenedor de botones */
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
